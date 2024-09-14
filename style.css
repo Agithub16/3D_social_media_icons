@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #C0C0C0;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+ul{
+    display:flex;
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style:none;
+    margin:0 40px;
+}
+ul li a .fa{
+    font-size: 50px;
+    color: #262626;
+    line-height:80px;
+    transition:.5s;
+    padding-right:14px;
+}
+ul li a{
+    display: block;
+    width: 70px;
+    height: 80px;
+    background:#cecaca;
+    text-align:center;
+    padding-left:20px;
+    transform:rotate(318deg) skew(199deg) translate(0, 0);
+    transition:  .5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+ul li a:before{
+    content:'';
+    position: absolute;
+    top: 10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    background:#8a6f6f;
+    transform:.5s;
+    transform: rotate(0deg) skewy(-45deg);
+}
+ul li a:after{
+    content:'';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background:#8a6f6f;
+    transform: .5s;
+    transform:rotate(0deg) skewx(-45deg);
+}
+ul li a:hover{
+    transform:skew(5deg) translate(20px, -50px);
+    box-shadow:-50px 50px 50px rgba(0,0,0,.5);
+}
+ul li:hover .fa{
+    color:#fff;
+}
+/*facebook*/
+ul li:hover:nth-child(1) a{
+    background: #3b5998;
+}
+ul li:hover:nth-child(1) a:before{
+    background:#365492;
+}
+ul li:hover:nth-child(1) a:after{
+    background: #4a69ad;
+}
+/*twitter*/
+ul li:hover:nth-child(2) a{
+    background: #00aced;
+}
+ul li:hover:nth-child(2) a:before{
+    background:#097aa5;
+}
+ul li:hover:nth-child(2) a:after{
+    background: #53b9e0;
+}
+/*google-plus*/
+ul li:hover:nth-child(3) a{
+    background: #dd4b39;
+}
+ul li:hover:nth-child(3) a:before{
+    background:#b33a2b;
+}
+ul li:hover:nth-child(3) a:after{
+    background: #e66a5a;
+}
+/*instagram*/
+ul li:hover:nth-child(4) a{
+    background: #e4405f;
+}
+ul li:hover:nth-child(4) a:before{
+    background:#d81c37;
+}
+ul li:hover:nth-child(4) a:after{
+    background: #e46880;
+}
+/*pintrest*/
+ul li:hover:nth-child(5) a{
+    background: #e60023;
+}
+ul li:hover:nth-child(5) a:before{
+    background: #bc0823;
+}
+ul li:hover:nth-child(5) a:after{
+    background: #bc1d35;
+}
+/*linkiedin*/
+ul li:hover:nth-child(6) a{
+    background: #0077b5;
+}
+ul li:hover:nth-child(6) a:before{
+    background:#00a0dc;
+}
+ul li:hover:nth-child(6) a:after{
+    background: #004b87;
+}
+/*youtube*/
+ul li:hover:nth-child(7) a{
+    background: #ff0000;
+}
+ul li:hover:nth-child(7) a:before{
+    background:#d30c0c;
+}
+ul li:hover:nth-child(7) a:after{
+    background: #a50606;
+}
+
+
+
+
